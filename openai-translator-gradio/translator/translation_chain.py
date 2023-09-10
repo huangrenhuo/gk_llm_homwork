@@ -29,7 +29,7 @@ class TranslationChain:
 
         system_message_prompt = SystemMessagePromptTemplate.from_template(
             template)
-        if len(style) != 0 and "None" != style:
+        if len(style) != 0 and "None" != style and "{target_style}" != style:
             system_message_prompt = SystemMessagePromptTemplate.from_template(
                 template_style)
 
