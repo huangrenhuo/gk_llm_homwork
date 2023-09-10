@@ -1,2 +1,3 @@
-# gk_llm_homwork
-GeekTime AI-LLM Application Development Hands-on Camp Homwork
+# 极客时间AI大模型应用开发实战营作业
+
+
